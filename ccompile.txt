@@ -1,0 +1,5 @@
+C compile:
+gcc -o <name for .exe> <the c name>
+<the .exe name>
+
+gcc * <.c file>

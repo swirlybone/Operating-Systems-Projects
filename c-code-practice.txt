@@ -1,0 +1,35 @@
+int var = 5/2;
+printf( "%d\n", var );
+
+int var = 5%2;
+printf( "%d\n", var );
+
+double var = 5.0/2;
+printf( "%.2f\n", var );
+
+c = 10;
+printf( "%d\n", c-- );
+
+c = 10;
+printf( "%d\n", ++c );
+
+c = 10;
+printf( "%d\n", --c );
+
+int i = 3, j = 2;
+float f = i / j;
+printf("%.3f", f);
+
+int i = 3, j = 2;
+float f = (float) i / j;
+printf("%.3f", f);
+
+int i = 3, j = 2;
+i += j;
+j -= i;
+printf("%d", j);
+
+int i = 9, j = 3;
+i %= j;
+printf("%d", i);
+
